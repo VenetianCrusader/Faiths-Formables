@@ -223,7 +223,7 @@ egyptian_religion = {
 
 			doctrine = tenet_pyramids #They built a lot of big trianges yo
 			doctrine = tenet_ritual_celebrations 
-			doctrine = tenet_astrology #They did love stars
+			doctrine = tenet_divine_marriage #They did love incest
 		}
 	}
 }
