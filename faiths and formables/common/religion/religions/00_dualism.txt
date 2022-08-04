@@ -853,6 +853,126 @@
 			}
 		}
 
+		valesian = {
+			color = { 0.8 0.6 0.4 }
+			icon = sethianism
+
+			holy_site = jerusalem
+			holy_site = basra
+			holy_site = damascus
+			holy_site = sinai
+			holy_site = safed
+
+			doctrine = tenet_asceticism
+			doctrine = tenet_ritual_castration
+			doctrine = tenet_inner_journey
+
+			doctrine = doctrine_no_head
+
+			localization = {
+				HighGodName = sethianism_high_god_name
+				HighGodName2 = sethianism_high_god_name_2
+				HighGodNamePossessive = sethianism_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = sethianism_high_god_alternate
+				HighGodNameAlternatePossessive = sethianism_high_god_alternate_possessive
+
+				#Creator
+				CreatorName = sethianism_creator_god_name
+				CreatorNamePossessive = sethianism_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				#HealthGod
+				HealthGodName = sethianism_health_god_name
+				HealthGodNamePossessive = sethianism_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = sethianism_fertility_god_name
+				FertilityGodNamePossessive = sethianism_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = sethianism_wealth_god_name
+				WealthGodNamePossessive = sethianism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				#HouseholdGod
+				HouseholdGodName = sethianism_household_god_name
+				HouseholdGodNamePossessive = sethianism_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+
+				#KnowledgeGod
+				KnowledgeGodName = sethianism_knowledge_god_name
+				KnowledgeGodNamePossessive = sethianism_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = sethianism_war_god_name
+				WarGodNamePossessive = sethianism_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+
+				#NightGod
+				NightGodName = sethianism_night_god_name
+				NightGodNamePossessive = sethianism_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WaterGod
+				WaterGodName = sethianism_water_god_name
+				WaterGodNamePossessive = sethianism_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+
+				GoodGodNames = {
+					sethianism_high_god_name
+					sethianism_high_god_alternate
+					dualism_high_god_alternate
+				}
+				DevilName = sethianism_devil_name
+				DevilNamePossessive = sethianism_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = {
+					sethianism_devil_name
+					dualism_evil_god_archons
+					dualism_evil_god_ignorance
+				}
+				DivineRealm = sethian_divine_realm
+				DivineRealm2 = sethian_divine_realm_2
+				DivineRealm3 = sethian_divine_realm_3
+				PositiveAfterLife = sethian_divine_realm
+				PositiveAfterLife2 = sethian_divine_realm_2
+				PositiveAfterLife3 = sethian_divine_realm_3
+				WitchGodName = sethianism_devil_name
+				WitchGodNamePossessive = sethianism_devil_name_possessive
+				WitchGodHerHis = CHARACTER_HERHIS_HIS
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HIM
+				WitchGodMistressMaster = master
+				WitchGodMotherFather = father
+			}
+		}
+		
 		cainitism = {
 			color = { 0.3 0.6 0.2 }
 			icon = cainitism
