@@ -856,7 +856,7 @@
 		valesian = {
 			color = { 0.8 0.6 0.4 }
 			icon = sethianism
-
+			
 			holy_site = jerusalem
 			holy_site = basra
 			holy_site = damascus
@@ -868,7 +868,11 @@
 			doctrine = tenet_inner_journey
 
 			doctrine = doctrine_no_head
-
+			
+			traits = {
+			virtues = { eunuch honest humble patient }
+			}
+			
 			localization = {
 				HighGodName = sethianism_high_god_name
 				HighGodName2 = sethianism_high_god_name_2
