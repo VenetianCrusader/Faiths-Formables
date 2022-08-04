@@ -1,0 +1,33 @@
+revive_kemitism_decision = {
+	picture = "custom_decision.dds"
+	
+	desc = revive_kemitism_decision_desc
+	selection_tooltip = revive_kemitism_decision_tooltip
+
+	major = yes
+	ai_goal = no
+	
+	is_shown = {
+		NOT = {
+			has_religion = religion:egyptian_religion
+		}
+		AND = {
+		has_culture = egyptian
+		}
+	}
+
+	minimum_cost = { 
+	piety = 1000
+	prestige = 1000
+	}
+	effect = {
+
+		set_character_faith = faith:egyptian_pagan
+
+	}
+
+	ai_check_interval = 0 # Change this value if you want the AI to consider this decision.
+	}
+
+
+	
