@@ -27,7 +27,7 @@
 		# Christian
 		catholic mozarabic_church
 		# Islamic
-		ashari muwalladi iberic_pagan
+		ashari muwalladi iberic_pagan druidic_pagan
 	}
 	regions = { 
 		world_europe_west_iberia
