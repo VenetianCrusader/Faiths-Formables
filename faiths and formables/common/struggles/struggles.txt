@@ -22,6 +22,9 @@
 		baranis
 		# Minorities
 		sephardi 
+		# Ancient
+		celtiberian
+		
 	}
 	faiths = {
 		# Christian
