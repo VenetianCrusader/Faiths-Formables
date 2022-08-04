@@ -3311,6 +3311,71 @@
 		}
 	}
 	
+	tenet_human_sacrifice = {
+		icon = core_tenet_flagellant
+		piety_cost = {
+			if = {
+				limit = {
+					has_doctrine = tenet_monasticism
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion_tag = dualism_religion
+				}
+				value = faith_tenet_cost_mid
+			}
+			else_if = {
+				limit = {
+					religion_tag = christianity_religion
+				}
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_human_sacrifice }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			# No HumSac for Jews, Muslims, or Hindus: 'tis literally the religion-namer.
+			NOR = {
+				religion_tag = judaism_religion
+				religion_tag = islam_religion
+				has_doctrine = pagan_hostility_doctrine
+				has_doctrine = tenet_carnal_exaltation
+			}
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_pacifism_trigger
+				NOT = { flag:tenet_pacifism = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_dharmic_pacifism_trigger
+				NOT = { flag:tenet_dharmic_pacifism = { is_in_list = selected_doctrines } }
+			}
+			
+		}
+
+		parameters = {
+			ritual_castration = yes
+			flower_war_cb_active = yes
+		}
+
+		character_modifier = {
+			ai_war_chance = 1
+			ai_war_cooldown = -0.5
+		}
+	}
+	
 	#############################
 	# Empty Template Tenet 		#
 	#############################
