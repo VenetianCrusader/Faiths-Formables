@@ -3311,7 +3311,7 @@
 		}
 	}
 	
-	tenet_human_sacrifice = {
+	tenet_ritual_castration = {
 		icon = core_tenet_flagellant
 		piety_cost = {
 			if = {
